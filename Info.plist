@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Like.fm</string>
+	<key>CFBundleDisplayName</key>
+	<string>Like.fm for Safari</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.like.fm.safari.listener</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.3</string>
+	<key>CFBundleVersion</key>
+	<string>6</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>background.html</string>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>globalInject.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Show what you listen to from Pandora, YouTube, Grooveshark, and more, and add it to tab in Facebook.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>youtube.com</string>
+				<string>pandora.com</string>
+				<string>*.youtube.com</string>
+				<string>*.pandora.com</string>
+				<string>like.fm</string>
+				<string>*.like.fm</string>
+				<string>*.grooveshark.com</string>
+				<string>grooveshark.com</string>
+				<string>*.meemix.com</string>
+				<string>meemix.com</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://like.fm/clients/safari.plist</string>
+	<key>Website</key>
+	<string>http://like.fm</string>
+</dict>
+</plist>
